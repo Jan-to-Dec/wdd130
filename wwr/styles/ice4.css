@@ -1,0 +1,19 @@
+body{
+    width: 1000px;
+    background-color: pink;
+}
+
+.maincontent{
+    width: 450px;
+    background-color: skyblue;
+    margin:0 auto; 
+    text-align: center;
+}
+
+h1.hover{
+    color:black;
+
+}
+
+h1{
+    color:white;
