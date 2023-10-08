@@ -23,8 +23,12 @@ nav a:hover {
     width: 80px;
 }
 
-#hero-img{
+#logo {
     width: 80px;
+}
+
+#hero-img{
+    width: 100%;
 }
 
 .button-box{
