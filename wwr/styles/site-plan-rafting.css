@@ -7,8 +7,8 @@ Fonts are separated by a & */
   /* change the values below to your colors from your palette */
   --primary-color: #A0C4FF;
   --secondary-color: #FFD6A5;
-  --accent1-color: #FDFFB6;
-  --accent2-color: #CAFFBF;
+  --accent1-color: #CAFFBF;
+  --accent2-color: #FDFFB6;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Aldrich";
