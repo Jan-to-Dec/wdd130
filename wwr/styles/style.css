@@ -6,12 +6,12 @@
 
 nav a{
     text-align: center;
-    color:#FFD6A5;
+    color:#A0C4FF;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color:#CAFFBF;
+    background-color:#FFD6A5;
     color:#A0C4FF;
 }
 
