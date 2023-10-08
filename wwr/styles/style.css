@@ -23,8 +23,8 @@ nav a:hover {
     width: 80px;
 }
 
-#logo {
-    width: 80px;
+.logo {
+    width:80px;
 }
 
 #hero-img{
@@ -81,8 +81,6 @@ footer p a:hover {
 .home-title{
     color:#6290C8;
     }
-
-
 
 h4{
     color:#376996;
