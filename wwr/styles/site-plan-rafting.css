@@ -5,7 +5,7 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #A0C4FF;
+  --primary-color: #001F52;
   --secondary-color: #FFD6A5;
   --accent1-color: #CAFFBF;
   --accent2-color: #FDFFB6;
@@ -15,12 +15,12 @@ Fonts are separated by a & */
   --paragraph-font: Manrope, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #A0C4FF;  /* headlines on a white background */ 
+  --headline-color-on-white: #001F52;  /* headlines on a white background */ 
   --headline-color-on-color: #FFD6A5; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #A0C4FF; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #001F52; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #FFD6A5; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #A0C4FF;
-  --nav-link-color: #A0C4FF;
+  --paragraph-background-color: #001F52;
+  --nav-link-color: #001F52;
   --nav-background-color: #FDFFB6;
   --nav-hover-link-color: #CAFFBF;
   --nav-hover-background-color: #FFD6A5;

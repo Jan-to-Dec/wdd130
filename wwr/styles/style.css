@@ -97,6 +97,9 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main{
+    display:block;
+}
 
 main section img {
     box-sizing: border-box;
@@ -178,8 +181,8 @@ h4{
     width: 100%;
 }
 .card-img {
-    border: 10px solid #CAFFBF;
-    transition: transform .5s;
+    border: 10px solid #FFD6A5;
+    transition: transform 0.5s;
     box-shadow: 5px 5px 10px #FDFFB6;
 }
 .card-img:hover {
