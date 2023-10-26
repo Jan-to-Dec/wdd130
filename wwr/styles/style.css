@@ -21,7 +21,7 @@
 }
 #background {
     height: 725px;
-    width: 100%;
+    background-color:#FFD6A5;
     grid-column: 1 / 11;
     grid-row: 4 / 9;
 }
