@@ -1,0 +1,46 @@
+section {
+    width: 50%;
+    border: 1px solid;
+  }
+  
+  /* Set the width and alignment of each block */
+  section {
+    width: 50%;
+  }
+  section:nth-of-type(1) {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  section:nth-of-type(2), section:nth-of-type(4) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section:nth-of-type(3) {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  
+  /* Set the alignment of the paragraphs in blocks 1, 2, and 3 */
+  section:nth-of-type(-n+3) p:nth-of-type(1) {
+    text-align: left;
+  }
+  section:nth-of-type(-n+3) p:nth-of-type(2) {
+    text-align: center;
+  }
+  section:nth-of-type(-n+3) p:nth-of-type(3) {
+    text-align: right;
+  }
+  
+  /* Set the alignment of the paragraphs in block 4 */
+  section:nth-of-type(4) p:nth-of-type(1) {
+    text-align: right;
+  }
+  section:nth-of-type(4) p:nth-of-type(2) {
+    text-align: center;
+  }
+  section:nth-of-type(4) p:nth-of-type(n+3) {
+    text-align: left;
+  }
+  
+  
+  
