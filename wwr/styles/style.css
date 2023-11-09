@@ -260,5 +260,23 @@ h4{
     }
 }
 
+/* ------------------------- sub page ------------------------- */
 
+.subpage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px
+}
+
+h3 {
+    margin: 0;
+    color:#001F52;
+    font-family: 'Roboto', sans-serif;
+}
 
