@@ -1,0 +1,40 @@
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.home-title {
+  color: #FFD6A5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+#logo-box {
+  text-decoration: none; 
+}
+
+.logo {
+  width: 100px; 
+  height: auto; 
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #001F52;
+  text-decoration: none;
+  text-align: center;
+  padding: 35px;
+}
+
+nav a:hover {
+  background-color: #FFD6A5;
+  color: #001F52;
+}
+
+#hero-img {
+  max-width: 100%;
+}
