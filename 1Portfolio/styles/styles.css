@@ -90,6 +90,14 @@ footer {
     align-items: center;
 }
 
+footer a:hover {
+    color:#FDFFFC;
+}
+
+footer p {
+    font-size: 1.2em;
+}  
+
 footer a {
     color:#001F52;
     text-decoration: none;
