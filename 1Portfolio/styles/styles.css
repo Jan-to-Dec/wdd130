@@ -15,14 +15,15 @@
 header {
     display: grid;
     background-color: #011627;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 100px auto;
+    height: 80px;
 }
 
 nav {
     display: flex;
     float: right;
     justify-content: right;
-    
+    justify-items: center;   
 }
   
 
@@ -42,6 +43,10 @@ nav {
     align-self: center;
 }
 
+.logopic {
+    width: 80px;
+}
+
 main section {
     text-align: center;
 }
@@ -51,10 +56,8 @@ main section {
 }
 
 #hero-img {
-    width: auto;
-    height: 100%;
+    max-width: 100%
 }
-
 
 
 /* ------------------------- footer ------------------------- */
