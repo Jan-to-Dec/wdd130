@@ -1,40 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Paytone+One&display=swap');
+
 #content {
-  max-width: 1600px;
-  margin: 0 auto;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
-.home-title {
-  color: #FFD6A5;
-  font-family: 'Roboto', sans-serif;
-  font-size: 2em;
-  margin-top: 10px;
+.title {
+    color: #011627;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
-#logo-box {
-  text-decoration: none; 
+header {
+    display: grid;
+    background-color: #FDFFFC;
+    grid-template-columns: 150px auto;
 }
 
-.logo {
-  width: 100px; 
-  height: auto; 
-}
 nav {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #011627;
+    align-items: center;
+}
+.halo a {
+    text-decoration: none;
+    padding: 10px;
+    color: #A2D2FF;
+    font-weight: bold;
+}
+.halo a:hover {
+    background-color: #E71D36;
 }
 
-nav a {
-  color: #001F52;
-  text-decoration: none;
-  text-align: center;
-  padding: 35px;
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 
-nav a:hover {
-  background-color: #FFD6A5;
-  color: #001F52;
+main section {
+    text-align: center;
+}
+
+#hero-pic h4 {
+    color: #001F52;
 }
 
 #hero-img {
-  max-width: 100%;
+    width: 100%;
+}
+
+
+
+/* ------------------------- footer ------------------------- */
+footer {
+    display: flex;
+    background-color:#A2D2FF;
+    color:#001F52;
+    padding: 25px 50px;
+    margin-top: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color:#001F52;
+    text-decoration: none;
+}
+footer a:hover {
+    color:#FFD6A5;
+}
+footer p {
+    font-size: 1.2em;
+}  
+footer p a:hover {
+    text-decoration: underline;
+}    
+footer .social img {
+    padding-top: 15px;
 }
