@@ -136,3 +136,58 @@ footer .copyright {
     grid-row:1/2;
 
 }
+
+
+/* ------------------------- About ------------------------- */
+
+.home-grid {
+ display:grid;
+ grid-template-columns: repeat(7, 1fr);
+ grid-template-rows: repeat(4,1fr);
+}
+
+.cardimg {
+    border: 10px solid #001F52;
+}
+
+.python-card {
+    grid-column:2/3;
+    grid-row:1/2;
+}
+
+.SQL-card {
+    grid-column: 4/5;
+    grid-row:1/2;
+}
+
+.Data-card {
+    grid-column:6/7;
+    grid-row:1/2;
+}
+
+.imagebox{
+    grid-column: 2/6;
+    grid-row: 3/5;
+}
+
+.textpbox {
+    grid-column: 2/7;
+    grid-row:2/3;
+}
+
+.textpbox {
+margin: 20px 0;
+}
+
+.Data-card {
+    margin-top: 100px;
+}
+
+.SQL-card {
+    margin-top: 100px;
+}
+
+.python-card {
+    margin-top: 100px;
+}
+
