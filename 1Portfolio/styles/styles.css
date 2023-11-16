@@ -14,24 +14,26 @@
 
 header {
     display: grid;
-    background-color: #FDFFFC;
+    background-color: #011627;
     grid-template-columns: 150px auto;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #011627;
-    align-items: center;
+    float: right;
+    justify-content: right;
+    
 }
+  
+
 .halo a {
     text-decoration: none;
     padding: 10px;
-    color: #A2D2FF;
+    color: #E71D36;
     font-weight: bold;
 }
 .halo a:hover {
-    background-color: #E71D36;
+    background-color: #FDFFFC;
 }
 
 #logo_link {
@@ -49,7 +51,8 @@ main section {
 }
 
 #hero-img {
-    width: 100%;
+    width: auto;
+    height: 100%;
 }
 
 
