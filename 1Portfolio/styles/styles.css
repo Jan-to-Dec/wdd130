@@ -77,12 +77,15 @@ main section {
 /* ------------------------- hero ------------------------- */
 
 #hero {
-    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: -100px;
     margin-bottom: 20px;
 }
 
 #hero-box {
-    position: relative;
+    grid-column: 1/6;
+    z-index: -1;
 }
 
 .hero-title {
@@ -103,9 +106,23 @@ main section {
   }
 
 #hero-pic {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
+    width: 100%;
+}
+
+.hello-img {
+    margin-top:20px;
+}
+
+/* ------------------------- Image ------------------------- */
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.home-card {
+    width:100%;
+    grid-column: 2/5;
 }
 
 /* ------------------------- footer ------------------------- */
@@ -164,7 +181,8 @@ footer .copyright {
 .picturebox{
     grid-column: 1/2;
     grid-row:1/2;
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
