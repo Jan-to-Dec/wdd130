@@ -39,6 +39,9 @@ nav {
     font-weight: bold;
     padding: 10px;
     margin-top: 20px;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 1.5em;
+    
 }
 .halo a:hover {
     background-color: #FDFFFC;
@@ -119,6 +122,7 @@ footer p {
 footer a {
     color:#001F52;
     text-decoration: none;
+    font-family: 'Merriweather', serif;
 }
 
 footer .sns img {
