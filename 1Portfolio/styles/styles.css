@@ -19,12 +19,21 @@
     margin-top: 10px;
 }
 
+body {
+    background-color: #FDFFFC;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: grid;
     background-color: #011627;
     grid-template-columns: 100px auto;
     height: 90px;
 }
+
 /* ------------------------- nav ------------------------- */
 nav {
     display: flex;
