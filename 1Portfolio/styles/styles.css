@@ -22,7 +22,7 @@
 body {
     background-color: #FDFFFC;
     font-family: 'Paytone One', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
 }
@@ -165,7 +165,6 @@ footer .copyright {
 .intro-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     justify-content: space-between;
     margin-top: 40px;
     margin-bottom:10px;
